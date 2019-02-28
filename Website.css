@@ -5,6 +5,7 @@ table, th, td{
   color: blue;
   border: 1px solid #3b424f;
   border-collapse: collapse;
+  width: auto;
 }
 th, td{
   padding: 5px;
