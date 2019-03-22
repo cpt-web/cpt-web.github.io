@@ -9,8 +9,10 @@ body{
   #topnav {
   overflow: hidden;
   background-color: #49a2da;
-  position: sticky;
+  position: fixed;
   padding: 0;
+  z-index: 2;
+  width: 100%;
 }
 
 /* Style the topnav links */
@@ -37,7 +39,7 @@ ul {
 }
 li a {
   display: inline;
-  position: relative;
+  position: sticky;
 }
 #navimage {
   position: sticky;
@@ -74,7 +76,9 @@ button span {
   transition: 0.5s;
   border-radius: 12px;
 }
-
+.hero{
+  font-family:sans-serif;
+}
 .hero-image {
   background: url(Elephant.jpg) no-repeat center;
   background-size: cover;
@@ -82,11 +86,8 @@ button span {
   position: relative;
 
 }
-.mySlides{
-  background: url(Elephant.jpg) no-repeat center;
-  background-size: cover;
-  height: 1000px;
-  position: relative;
+#Body1{
+  background-color: #49a2da;
 }
 .herot{
   text-align: center;
@@ -97,4 +98,3 @@ button span {
   color: white;
   font-family: sans-serif;
 }
-/* Official website colours: #49a2da (blue) and #e1e120 (yellow) */
